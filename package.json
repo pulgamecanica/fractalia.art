@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "wasm:build": "cd fractal-engine && wasm-pack build --target web --release",
-    "wasm:dev": "cd fractal-engine && wasm-pack build --target web --dev",
+    "wasm:build": "cd fractal-engine && wasm-pack build --target web --release && cp pkg/fractal_engine.js pkg/fractal_engine_bg.wasm ../src/lib/wasm/",
+    "wasm:dev": "cd fractal-engine && wasm-pack build --target web --dev && cp pkg/fractal_engine.js pkg/fractal_engine_bg.wasm ../src/lib/wasm/",
     "dev": "npm run wasm:dev && vite",
     "build": "vite build",
     "lint": "eslint .",

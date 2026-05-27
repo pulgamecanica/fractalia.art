@@ -1,4 +1,4 @@
-import init, { render_fractal } from "fractal-engine";
+import init, { render_fractal } from "./wasm/fractal_engine.js";
 
 let initialized = false;
 
