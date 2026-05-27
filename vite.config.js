@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), wasm(), topLevelAwait()],
   resolve: {
     alias: {
-      'fractal-engine': path.resolve(__dirname, 'fractal-engine/pkg'),
+      'fractal-engine': path.resolve(__dirname, 'fractal-engine/pkg/fractal_engine.js'),
     },
   },
   optimizeDeps: {
