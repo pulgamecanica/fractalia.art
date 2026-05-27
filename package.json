@@ -7,7 +7,7 @@
     "wasm:build": "cd fractal-engine && wasm-pack build --target web --release",
     "wasm:dev": "cd fractal-engine && wasm-pack build --target web --dev",
     "dev": "npm run wasm:dev && vite",
-    "build": "npm run wasm:build && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -25,6 +25,5 @@ dist-ssr
 
 .env
 
-# WASM build artifacts
+# WASM build artifacts (pkg/ is committed for deployment)
 fractal-engine/target/
-fractal-engine/pkg/
